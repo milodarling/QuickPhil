@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = QuickPhil;
+	cell = PSLinkCell;
+	detail = QuickPhilListController;
+	icon = QuickPhil.png;
+	isController = 1;
+	label = QuickPhil;
+    };
+}

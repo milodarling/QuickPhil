@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>You must respring your phone after changing the shuffle mode, or else you will go into safe mode.
+And I will laugh.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Sound 1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>pickSong1</string>
+			<key>label</key>
+			<string>Pick Song(s)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Shuffle</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.milodarling.quickphil</string>
+			<key>key</key>
+			<string>song1-shuffle</string>
+			<key>PostNotification</key>
+			<string>com.milodarling.quickphil/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Method</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.milodarling.quickphil.song1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Sound 2</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>pickSong2</string>
+			<key>label</key>
+			<string>Pick Song(s)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Shuffle</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.milodarling.quickphil</string>
+			<key>key</key>
+			<string>song2-shuffle</string>
+			<key>PostNotification</key>
+			<string>com.milodarling.quickphil/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Method</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.milodarling.quickphil.song2</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Sound 3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>pickSong3</string>
+			<key>label</key>
+			<string>Pick Song(s)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Shuffle</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.milodarling.quickphil</string>
+			<key>key</key>
+			<string>song3-shuffle</string>
+			<key>PostNotification</key>
+			<string>com.milodarling.quickphil/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Method</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.milodarling.quickphil.song3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Sound 4</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>pickSong4</string>
+			<key>label</key>
+			<string>Pick Song(s)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Shuffle</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.milodarling.quickphil</string>
+			<key>key</key>
+			<string>song4-shuffle</string>
+			<key>PostNotification</key>
+			<string>com.milodarling.quickphil/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Method</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.milodarling.quickphil.song4</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Sound 5</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>pickSong5</string>
+			<key>label</key>
+			<string>Pick Song(s)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Shuffle</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.milodarling.quickphil</string>
+			<key>key</key>
+			<string>song5-shuffle</string>
+			<key>PostNotification</key>
+			<string>com.milodarling.quickphil/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Method</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.milodarling.quickphil.song5</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>QuickPhil</string>
+</dict>
+</plist>

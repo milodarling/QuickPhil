@@ -1,0 +1,13 @@
+Package: com.milodarling.quickphil
+Name: QuickPhil
+Architecture: iphoneos-arm
+Author: Milo Darling <milodarling98+quickphil@gmail.com>
+Depiction: http://rcrepo.com/depictions/?dep=com.milodarling.quickphil
+Priority: extra
+Section: Tweaks
+Description: Play a queue of songs with Activator!
+Depends: mobilesubstrate, libactivator
+Homepage: http://reddit.com/r/rcrepo
+Maintainer: TheMacMini09 <themacmini09@gmail.com>
+Version: 0.0.1-38
+Installed-Size: 464
