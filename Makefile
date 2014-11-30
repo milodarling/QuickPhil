@@ -10,6 +10,7 @@ TWEAK_NAME = QuickPhil
 QuickPhil_FILES = Tweak.xm
 QuickPhil_FRAMEWORKS = MediaPlayer UIKit
 QuickPhil_LDFLAGS = -lactivator
+QuickPhil_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 

@@ -10,6 +10,7 @@ QuickPhil_FILES = QuickPhil.mm
 QuickPhil_INSTALL_PATH = /Library/PreferenceBundles
 QuickPhil_FRAMEWORKS = UIKit MediaPlayer
 QuickPhil_PRIVATE_FRAMEWORKS = Preferences
+QuickPhil_LIBRARIES = flipswitch
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

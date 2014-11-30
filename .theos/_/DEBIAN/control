@@ -9,5 +9,5 @@ Description: Play a queue of songs with Activator!
 Depends: mobilesubstrate, libactivator
 Homepage: http://reddit.com/r/rcrepo
 Maintainer: TheMacMini09 <themacmini09@gmail.com>
-Version: 0.0.1-38
+Version: 0.0.1-42
 Installed-Size: 464

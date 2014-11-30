@@ -7,6 +7,6 @@ Depiction: http://rcrepo.com/depictions/?dep=com.milodarling.quickphil
 Priority: extra
 Section: Tweaks
 Description: Play a queue of songs with Activator!
-Depends: mobilesubstrate, libactivator
+Depends: mobilesubstrate, libactivator, com.a3tweaks.flipswitch
 Homepage: http://reddit.com/r/rcrepo
 Maintainer: TheMacMini09 <themacmini09@gmail.com>

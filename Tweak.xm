@@ -115,6 +115,7 @@ static void loadPreferences() {
         [musicPlayer setShuffleMode:shuffleMode];
         NSLog(@"[QuickPhil] Play!");
         [musicPlayer play];
+        //[myCollection release];
         
     } else {
         UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"Error"

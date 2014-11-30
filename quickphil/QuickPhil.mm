@@ -1,6 +1,7 @@
 #import <Preferences/Preferences.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <CoreFoundation/CoreFoundation.h>
+#import <Flipswitch/Flipswitch.h>
 
 @interface QuickPhilListController: PSListController <MPMediaPickerControllerDelegate> {
     CFStringRef song;
@@ -100,7 +101,7 @@
     [self dismissModalViewControllerAnimated: YES];
 }
 -(void) respring {
-    system("killall -9 SpringBoard");
+    [[FSSwitchPanel sharedPanel] applyActionForSwitchIdentifier:@"com.a3tweaks.switch.respring"];
 }
 @end
 
